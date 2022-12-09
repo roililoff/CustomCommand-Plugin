@@ -1,0 +1,13 @@
+command /hi [<text>]:
+	aliases: hey
+	trigger:
+		send "&5&lHello"
+   
+command /help [<text>]:
+	aliases: tab
+	trigger:
+		send "&d&m------------------------------------"
+		send "&cYOUR TEXT"
+		send "&cYOUR TEXT"
+		send "&cYOUR TEXT"
+		send "&d&m------------------------------------"	
