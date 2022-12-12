@@ -11,3 +11,8 @@ command /help [<text>]:
 		send "&cYOUR TEXT"
 		send "&cYOUR TEXT"
 		send "&d&m------------------------------------"	
+
+command /gm1: 
+	trigger:
+		message "&cAdmin: &9Command executed"
+		execute command "gamemode 1 %player%"
